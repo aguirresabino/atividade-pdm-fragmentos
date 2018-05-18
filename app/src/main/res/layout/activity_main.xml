@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <fragment
+        android:id="@+id/frag1"
+        class="ifpb.com.br.myapplication.BlankFragment"
+        android:layout_width="match_parent"
+        android:layout_height="205dp"
+        tools:ignore="MissingConstraints"
+        tools:layout="@layout/fragment_blank"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="281dp"/>
+
+    <fragment
+        android:id="@+id/frag2"
+        class="ifpb.com.br.myapplication.BlankFragment2"
+        android:layout_width="match_parent"
+        android:layout_height="243dp"
+        tools:ignore="MissingConstraints"
+        tools:layout="@layout/fragment_blank_fragment2"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="16dp"/>
+
+</android.support.constraint.ConstraintLayout>
